@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455A8BAE2C1305C800F9F6CC /* CalculationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A8BAD2C1305C800F9F6CC /* CalculationsListViewController.swift */; };
 		45A760E52C0F47DF00F8AFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A760E42C0F47DF00F8AFA0 /* AppDelegate.swift */; };
 		45A760E72C0F47DF00F8AFA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A760E62C0F47DF00F8AFA0 /* SceneDelegate.swift */; };
 		45A760E92C0F47DF00F8AFA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A760E82C0F47DF00F8AFA0 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		455A8BAD2C1305C800F9F6CC /* CalculationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsListViewController.swift; sourceTree = "<group>"; };
 		45A760E12C0F47DF00F8AFA0 /* TinkoffCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A760E42C0F47DF00F8AFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45A760E62C0F47DF00F8AFA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				45A760ED2C0F47E200F8AFA0 /* Assets.xcassets */,
 				45A760EF2C0F47E200F8AFA0 /* LaunchScreen.storyboard */,
 				45A760F22C0F47E200F8AFA0 /* Info.plist */,
+				455A8BAD2C1305C800F9F6CC /* CalculationsListViewController.swift */,
 			);
 			path = TinkoffCalculator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455A8BAE2C1305C800F9F6CC /* CalculationsListViewController.swift in Sources */,
 				45A760E92C0F47DF00F8AFA0 /* ViewController.swift in Sources */,
 				45A760E52C0F47DF00F8AFA0 /* AppDelegate.swift in Sources */,
 				45A760E72C0F47DF00F8AFA0 /* SceneDelegate.swift in Sources */,

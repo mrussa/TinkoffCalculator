@@ -101,6 +101,10 @@ class ViewController: UIViewController {
         calculationHistory.removeAll()
         
     }
+    
+    @IBAction func unwindAction(unwindSegue: UIStoryboardSegue) {
+        
+    }
         
     
     @IBOutlet weak var label: UILabel!

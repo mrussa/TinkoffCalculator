@@ -326,16 +326,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Zy-pM-wpE">
-                                <rect key="frame" x="192" y="494.5" width="30" height="30"/>
+                                <rect key="frame" x="192" y="484" width="30" height="30"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Exit"/>
                                 <connections>
                                     <segue destination="u5y-sO-jh7" kind="unwind" unwindAction="unwindActionWithUnwindSegue:" id="LZt-zz-OxQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculation history" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPY-v5-hRF">
-                                <rect key="frame" x="136.5" y="433" width="141" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPY-v5-hRF">
+                                <rect key="frame" x="207" y="443" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2a-dN-KPL">
+                                <rect key="frame" x="181" y="368" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -346,10 +352,15 @@
                             <constraint firstItem="PPY-v5-hRF" firstAttribute="centerY" secondItem="uXq-fM-CzT" secondAttribute="centerY" id="3Cz-8v-4Yk"/>
                             <constraint firstItem="3Zy-pM-wpE" firstAttribute="centerX" secondItem="uXq-fM-CzT" secondAttribute="centerX" id="Dub-Un-8ew"/>
                             <constraint firstItem="PPY-v5-hRF" firstAttribute="centerX" secondItem="uXq-fM-CzT" secondAttribute="centerX" id="WwA-Fh-Ffo"/>
+                            <constraint firstItem="z2a-dN-KPL" firstAttribute="centerX" secondItem="uXq-fM-CzT" secondAttribute="centerX" id="eKD-0e-jQb"/>
                             <constraint firstItem="3Zy-pM-wpE" firstAttribute="top" secondItem="PPY-v5-hRF" secondAttribute="bottom" constant="41" id="iYc-u1-JHd"/>
+                            <constraint firstItem="PPY-v5-hRF" firstAttribute="top" secondItem="z2a-dN-KPL" secondAttribute="bottom" constant="54" id="qJ9-dY-kdp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TVb-aA-D4m"/>
+                    <connections>
+                        <outlet property="calculationLabel" destination="PPY-v5-hRF" id="3ru-nT-DJV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EA0-AT-7dY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
